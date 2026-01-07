@@ -99,8 +99,8 @@ def bulk_download_images(
     print(f"Failed: {failed}")
 if __name__ == "__main__":
     bulk_download_images(
-        excel_path="data/train(1).xlsx",
-        image_dir="data/images",
+        excel_path="data/train(1).xlsx", #train and test dataset are kept in a folder named data
+        image_dir="data/images", #images are collected in the folder data
         zoom=18,
         sleep_time=0.2,
         max_images=None
